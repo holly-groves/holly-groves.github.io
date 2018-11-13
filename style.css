@@ -29,6 +29,10 @@ li {
   padding: 10px 30px;
 }
 
+li:hover {
+  background-color: black;
+}
+
 #card-container {
   padding: 20px 0 0 0;
 }
