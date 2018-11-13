@@ -7,12 +7,32 @@ body {
   background-color: darkgrey;
 }
 
-#heading-container {
+header h1 {
   background-color: grey;
-  padding: 0;
+  margin-bottom: 0;
+  padding: 10px 0 10px 27px;
 }
 
-#nav-container {
+.nav {
   background-color: lightgrey;
+}
+
+ul {
   padding: 0;
+  margin-bottom: 0;
+}
+
+li {
+  float: left;
+  list-style-type: none;
+  font-size: 20px;
+  padding: 10px 30px;
+}
+
+#card-container {
+  padding: 20px 0 0 0;
+}
+
+#grid-card {
+  padding: 10px 0 0 0;
 }
