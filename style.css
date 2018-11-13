@@ -4,3 +4,11 @@
 body{
   font-family: Raleway, sans-serif; /* 'Raleway' font from Google Fonts */
 }
+
+header h1{
+  background-color: grey;
+}
+
+nav{
+  background-color: lightgrey;
+}
