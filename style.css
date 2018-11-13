@@ -16,3 +16,7 @@ body {
   background-color: lightgrey;
   padding: 0;
 }
+
+#card-container {
+  padding: 0;
+}
