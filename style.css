@@ -4,17 +4,25 @@
 body {
   font-family: Raleway, sans-serif;
   /* 'Raleway' font from Google Fonts */
-  background-color: darkgrey;
+  background-color: #BFBDC1;
 }
 
 header h1 {
-  background-color: grey;
+  background-color: #37313D;
   margin-bottom: 0;
   padding: 10px 0 10px 27px;
 }
 
+header h1, footer p{
+  color: #eeeeee;
+}
+
+header p, header li{
+  color: #BFBDC1;
+}
+
 .nav {
-  background-color: lightgrey;
+  background-color: #706A75;
 }
 
 ul {
@@ -30,7 +38,7 @@ li {
 }
 
 li:hover {
-  background-color: black;
+  background-color: #37313D;
 }
 
 #card-container {
@@ -41,11 +49,15 @@ li:hover {
   padding: 10px 0 0 0;
 }
 
+.card {
+  background-color: #eeeeee;
+}
+
 footer{
   margin-top: 30px;
   padding-bottom: 5px;
   text-align: center;
-  background-color: grey;
+  background-color: #37313D;
 }
 
 footer p{
