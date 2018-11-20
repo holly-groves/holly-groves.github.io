@@ -21,8 +21,21 @@ header p, header li{
   color: #BFBDC1;
 }
 
+#headingContainer{
+  padding: 0;
+}
+
+#headingItem{
+  padding: 0;
+}
+
 #nav {
-  background-color: #706A75;
+background-color: #706A75;
+}
+
+#navItem{
+  padding-left: 0;
+  padding-right: 0;
 }
 
 ul {

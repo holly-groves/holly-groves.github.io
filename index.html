@@ -8,7 +8,7 @@
   <!-- Link to FontAwesome which is used for the home icon -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <!-- link to Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <!-- link to Unsemantic -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.2.3/unsemantic-grid-responsive-tablet.css">
   <!-- link to main stylesheet -->
@@ -18,27 +18,32 @@
 
 <body>
   <header>
-    <h1>Holly Groves</h1>
+    <div class="grid-container" id="headingContainer">
+      <div class="grid-100" id="headingItem">
+            <h1>Holly Groves</h1>
+      </div>
+    </div>
+
     <div class="grid-container" id="nav">
       <nav>
           <ul>
-            <div class="grid-30 mobile-grid-50">
+            <div class="grid-30 mobile-grid-50 tablet-grid-50" id="navItem">
               <a href="index.html">
                 <!-- FontAwesome is used here -->
                 <li><i class="fas fa-home"></i> Home</li>
               </a>
             </div>
-            <div class="grid-30 mobile-grid-50">
+            <div class="grid-30 mobile-grid-50 tablet-grid-50" id="navItem">
               <a href="project.html">
                 <li>Projects</li>
               </a>
             </div>
-            <div class="grid-20 mobile-grid-50">
+            <div class="grid-20 mobile-grid-50 tablet-grid-50" id="navItem">
               <a href="cv.html">
                 <li> CV</li>
               </a>
             </div>
-            <div class="grid-20 mobile-grid-50">
+            <div class="grid-20 mobile-grid-50 tablet-grid-50" id="navItem">
               <a href="contact.html">
                 <li>Contact</li>
               </a>
