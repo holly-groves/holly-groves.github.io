@@ -63,3 +63,9 @@ footer{
 footer p{
   padding-top: 15px;
 }
+
+@media screen and (max-width: 600px){
+  .card {
+    font-size: 150%;
+  }
+}
