@@ -34,8 +34,17 @@ background-color: #706A75;
 padding: 0 0 0 10px;
 }
 
-#navItem:hover {
+#navbar-nav :hover {
   background-color: #37313D;
+}
+
+#link{
+  color: #eeeeee;
+  font-size: 20px;
+}
+
+#link:hover{
+  color: #37313D;
 }
 
 #card-container {
