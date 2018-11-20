@@ -56,7 +56,7 @@ li {
   padding: 10px 30px;
 }
 
-li:hover {
+#navItem:hover {
   background-color: #37313D;
 }
 
