@@ -35,6 +35,12 @@ padding: 10px 0 10px 20px;
 font-size: 20px;
 }
 
+#header{
+  font-size: 30px;
+  padding-right: 10px;
+  color: white;
+}
+
 #navItem a:hover{
   color: red;
 }
