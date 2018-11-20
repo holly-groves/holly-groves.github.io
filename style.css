@@ -29,25 +29,9 @@ header p, header li{
   padding: 0;
 }
 
-#nav {
+#nav, #navSection {
 background-color: #706A75;
-}
-
-#navItem{
-  padding-left: 0;
-  padding-right: 0;
-}
-
-ul {
-  padding: 0;
-  margin-bottom: 0;
-}
-
-li {
-  float: left;
-  list-style-type: none;
-  font-size: 20px;
-  padding: 10px 30px;
+padding: 0 0 0 10px;
 }
 
 #navItem:hover {
