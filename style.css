@@ -31,20 +31,16 @@ header p, header li{
 
 #nav, #navSection {
 background-color: #706A75;
-padding: 0 0 0 10px;
+padding: 0 10px 0 5px;
+font-size: 20px;
 }
 
-#navbar-nav :hover {
-  background-color: #37313D;
+#navItem a:hover{
+  color: red;
 }
 
-#link{
-  color: #BFBDC1;
-  font-size: 20px;
-}
-
-#link:hover{
-  color: #37313D;
+li:hover{
+  color: #red;
 }
 
 #card-container {
