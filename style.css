@@ -65,7 +65,7 @@ footer p{
 }
 
 @media screen and (max-width: 600px){
-  .card {
-    font-size: 150%;
+  header li {
+    font-size: 100%;
   }
 }
