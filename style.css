@@ -1,8 +1,12 @@
-/* Font 'Raleway' used from Google Fonts */
+/* link to Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Raleway');
+
+
+/* SECTION STYLING */
+
 body {
-  font-family: 'Raleway', sans-serif;
   /* 'Raleway' font from Google Fonts */
+  font-family: 'Raleway', sans-serif;
   /* Photo is taken from Pexels.com */
   background-image: url("Background.jpg");
 }
@@ -13,6 +17,27 @@ header{
   font-size: 25px;
   background-color: #7C6868;
 }
+
+footer{
+  margin-top: 30px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: #7C6868;
+}
+
+footer p, footer a{
+  padding-top: 15px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Comfortaa', sans-serif;
+}
+
+footer a:hover{
+  color: white;
+}
+
+
+/* CARD STYLING */
 
 #heading{
   font-size: 35px;
@@ -38,24 +63,8 @@ header{
   background-color: #F4EBF1;
 }
 
-footer{
-  margin-top: 30px;
-  padding-bottom: 5px;
-  text-align: center;
-  background-color: #7C6868;
-}
 
-footer p, footer a{
-  padding-top: 15px;
-  color: white;
-  font-size: 20px;
-  font-family: 'Comfortaa', sans-serif;
-}
-
-footer a:hover{
-  color: white;
-}
-
+/* MEDIA QUERIES */
 
 @media screen and (min-width: 1200px) {
   #grid-card{
