@@ -11,6 +11,10 @@ header{
   font-family: 'Comfortaa', sans-serif;
 }
 
+.card{
+  margin: 30px 30px 10px 30px;
+}
+
 #card-container {
   padding: 20px 10px 0 10px;
 }
