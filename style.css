@@ -11,48 +11,6 @@ header{
   font-family: 'Comfortaa', sans-serif;
 }
 
-header h1 {
-  background-color: #37313D;
-  margin-bottom: 0;
-  padding: 10px 0 10px 27px;
-}
-
-header h1, footer p{
-  color: #eeeeee;
-}
-
-header p, header li{
-  color: #BFBDC1;
-}
-
-#headingContainer{
-  padding: 0;
-}
-
-#headingItem{
-  padding: 0;
-}
-
-#nav, #navSection {
-background-color: #37313D;
-padding: 10px 0 10px 20px;
-font-size: 20px;
-}
-
-#header{
-  font-size: 30px;
-  padding-right: 10px;
-  color: white;
-}
-
-#navItem a:hover{
-  color: red;
-}
-
-li:hover{
-  color: #red;
-}
-
 #card-container {
   padding: 20px 10px 0 10px;
 }
