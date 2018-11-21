@@ -9,10 +9,14 @@
   float: left;
 }
 
+footer{
+  position: relative;
+}
+
 @media screen and (max-width: 1000px) {
   .image{
-    height: 50%;
-    width: 50%;
+    height: 75%;
+    width: 75%;
 }
 
 @media screen and (max-width: 800px) {
