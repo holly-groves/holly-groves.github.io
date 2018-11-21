@@ -9,6 +9,11 @@ body {
 header{
   /* 'Comfortaa' font from Google Fonts */
   font-family: 'Comfortaa', sans-serif;
+  font-size: 25px;
+}
+
+#heading{
+  font-size: 35px;
 }
 
 .card{
