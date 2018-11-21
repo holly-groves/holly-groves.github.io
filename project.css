@@ -1,7 +1,7 @@
 .card {
   float: left;
   padding: 8px;
-  margin-right: 16px;
+  margin: 0 16px 10px 0;
 }
 
 #card-container{
