@@ -40,8 +40,13 @@ footer{
   background-color: #7C6868;
 }
 
-footer p{
+footer p, footer a{
   padding-top: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+footer a:hover{
   color: white;
 }
 
