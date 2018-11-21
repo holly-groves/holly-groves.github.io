@@ -3,7 +3,8 @@
 body {
   font-family: 'Raleway', sans-serif;
   /* 'Raleway' font from Google Fonts */
-  background-color: #D7CACA;
+  /* Photo is taken from Pexels.com */
+  background-image: url("Background.jpg");
 }
 
 header{
