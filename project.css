@@ -1,13 +1,9 @@
 .card {
   float: left;
   padding: 8px;
-  margin-right: 16px;
+  margin: 0 16px 10px 0;
 }
 
 #card-container{
   padding: 30px 0 0 0;
-}
-
-#project4{
-  margin-right: 0;
 }
