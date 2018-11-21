@@ -21,24 +21,32 @@ header p, header li{
   color: #BFBDC1;
 }
 
-#nav {
-  background-color: #706A75;
-}
-
-ul {
+#headingContainer{
   padding: 0;
-  margin-bottom: 0;
 }
 
-li {
-  float: left;
-  list-style-type: none;
-  font-size: 20px;
-  padding: 10px 30px;
+#headingItem{
+  padding: 0;
 }
 
-li:hover {
-  background-color: #37313D;
+#nav, #navSection {
+background-color: #37313D;
+padding: 10px 0 10px 20px;
+font-size: 20px;
+}
+
+#header{
+  font-size: 30px;
+  padding-right: 10px;
+  color: white;
+}
+
+#navItem a:hover{
+  color: red;
+}
+
+li:hover{
+  color: #red;
 }
 
 #card-container {
@@ -65,7 +73,31 @@ footer p{
 }
 
 @media screen and (max-width: 600px){
-  .card {
-    font-size: 150%;
+  header li {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  header h1{
+    font-size: 175%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #grid-card{
+    padding: 20px 30px 0 30px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  #grid-card{
+    padding: 15px 15px 0 15px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  #grid-card{
+    padding: 5px 5px 0 5px;
   }
 }
